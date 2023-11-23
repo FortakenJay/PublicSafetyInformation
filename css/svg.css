@@ -1,0 +1,38 @@
+
+
+circle {
+  opacity: 1;
+  fill: #ff0000;
+  transition: all 0.35s;
+
+}
+
+path {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  z-index: 1;
+}
+
+path:hover {
+  opacity: 0.8; /* Adjust the opacity as needed */
+  fill: #7895CB;
+  transition: all 0.35s;
+  z-index: 1;
+}
+
+.tooltip {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  stroke: black;
+  z-index: 3;
+}
+
+g.tooltip rect {
+  fill: lightblue;
+  stroke: black;
+}
+
+circle:hover + .tooltip {
+  opacity: 1;
+}

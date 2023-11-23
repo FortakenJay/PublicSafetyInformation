@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,200&display=swap');
+
+.information_box {
+    display: flex; 
+    background-color: #435585;
+}
+
+.main_information,
+.police_map_information {
+    flex: 1; 
+    padding: 10px; 
+    align-items: center; 
+}
+
+.information_box h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    border: none;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.information_box h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    border: none;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.main_information h1 {
+    margin-left: 10px;
+}
+
+.information_view h2 {/*new stuff*/
+    margin-left: 10px;
+}
+
+.information_view {
+    display: flex; 
+    align-items: center; 
+    font-weight: bold;
+    margin-left: 5%;
+    margin: 30px;
+}
+
+.information_view img {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+    filter: invert(100%); 
+}
+
+.information_view p, .information_view h2{
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.information_box img, 
+.police_map_information img {
+    width: 60px;
+    height: auto;
+}
+
+.police_map_information img {
+    filter: invert(100%);
+}
+
+.image-container {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    margin-right: 10px; 
+}
+
+.police_map_information iframe {
+    margin-left: 3%;
+}
