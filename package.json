@@ -1,0 +1,18 @@
+{
+  "name": "sd",
+  "version": "1.0.0",
+  "description": "The code is written by the team of professor Wei Dai of Purdue University Northwest. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Professor Wei Dai, Jih Bin Luo, Justin Meng, Diya Kafle et al. ",
+  "license": "PNW",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "node": "^21.2.0"
+  }
+}
