@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,200&display=swap');
 
-.usa_map{
-    width: 100vw;
-    height: 100vh;
+.map{
+
+    height: auto;
+    width: auto\9;
     border: 0;
 }

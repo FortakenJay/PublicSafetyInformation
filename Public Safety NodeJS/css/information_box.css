@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,200&display=swap');
-
+.svg{
+    background-color: (0,14,47,.7);
+}
 .information_box {
     display: flex; 
     background-color: #435585;

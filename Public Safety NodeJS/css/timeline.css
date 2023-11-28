@@ -1,0 +1,27 @@
+.timeline_svg {
+   height: auto;
+   width: auto\9;
+   border: 0;
+   margin-block: 1em;
+
+}
+
+.rect_text {
+   font-size: 30px;
+   z-index: 100;
+}
+
+.rect_title {
+   font-size: 25px;
+   font-weight: bold;
+   position: relative;
+}
+
+.big_rect_body {
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.big_rect_detail {
+   font-size: 20px;
+}
