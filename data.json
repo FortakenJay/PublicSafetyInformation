@@ -1,0 +1,740 @@
+[
+    {
+        "id": 1,
+        "addressSchool": "33 Burton Hills Blvd, Nashville, TN 37215",
+        "schoolName": "The Covenant School",
+        "schoolCoordinates": [
+            36.09310,
+            -86.82560
+        ],
+        "policeStations": [ 
+            {
+                "addressPolice": "698 Thompson Ln, Nashville, TN 37204",
+                "policeName": "Berry Hill Police Department",
+                "geographicalDistance": 3.75,
+                "driveDistance": 4.80,
+                "driveTime": 12,
+                "policeCoordinates": [
+                    36.11194,
+                    -86.76222
+                ]
+            },
+            {
+                "addressPolice": "5211 Maryland Way # 1000, Brentwood, TN 37027",
+                "policeName": "Brentwood Police Department",
+                "geographicalDistance": 4.19,
+                "driveDistance": 5.90,
+                "driveTime": 12,
+                "policeCoordinates": [
+                    36.03444,
+                    -86.80500
+                ]
+            }
+        ],
+        "city": "Nashville",
+        "state": "Tennessee",
+        "deaths": "6",
+        "ammunition": "150",
+        "timeLine": [
+            "9:57 AM",
+            "10:11 AM",
+            "10:13 AM",
+            "10:23 AM",
+            "10:27 AM"
+        ],
+        "timeLineDifference": [
+            "1020 Seconds",
+            "120 Seconds",
+            "600 Seconds",
+            "240 Seconds"
+        ]
+    },
+    {
+        "id": 2,
+        "addressSchool": "715 Old Carrizo Rd, Uvalde, TX 78801",
+        "schoolName": "Robb Elementry School",
+        "schoolCoordinates": [
+            29.19944,
+            -99.78833
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "123 S Getty St, Uvalde, TX 78801",
+                "policeName": "Uvalde Police Station",
+                "geographicalDistance": 0.60,
+                "driveDistance": 1.10,
+                "driveTime": 3,
+                "policeCoordinates": [
+                    29.2078,
+                    -99.7863
+                ]
+            },
+            {
+                "addressPolice": "964 W Main St, Uvalde, TX 78801",
+                "policeName": "Uvalde Police Department",
+                "geographicalDistance": 1.00,
+                "driveDistance": 1.40,
+                "driveTime": 4,
+                "policeCoordinates": [
+                    29.2030,
+                    -99.8039
+                ]
+            }
+        ],
+        "city": "Uvalde",
+        "state": "Texas",
+        "deaths": "21",
+        "ammunition": "164",
+        "timeLine": [
+            "11:28 AM",
+            "11:28 AM",
+            "11:29 AM",
+            "11:35 AM",
+            "12:50 PM"
+        ],
+        "timeLineDifference": [
+            "0 Seconds",
+            "60 Seconds",
+            "360 Seconds",
+            "4500 Seconds"
+        ]
+    },
+    {
+        "id": 3,
+        "addressSchool": "745 N Oxford Rd, Oxford, MI 48371",
+        "schoolName": "Oxford High School",
+        "schoolCoordinates": [
+            42.8381,
+            -83.2611
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "22 W Burdick St, Oxford, MI 48371",
+                "policeName": "Oxford Village Police Department",
+                "geographicalDistance": 0.95,
+                "driveDistance": 1.40,
+                "driveTime": 6,
+                "policeCoordinates": [
+                    42.8242,
+                    -83.2667
+                ]
+            },
+            {
+                "addressPolice": "21 E Church St, Lake Orion, MI 48362",
+                "policeName": "Lake Orion Police Department",
+                "geographicalDistance": 3.69,
+                "driveDistance": 4.40,
+                "driveTime": 11,
+                "policeCoordinates": [
+                    42.78722,
+                    -83.23917
+                ]
+            }
+        ],
+        "city": "Oxford Town",
+        "state": "Michigan",
+        "deaths": "4",
+        "ammunition": "30",
+        "timeLine": [
+            "12:50 AM",
+            "12:51 AM",
+            "12:52 AM",
+            "12:56 AM",
+            "1:04 AM"
+        ],
+        "timeLineDifference": [
+            "60 Seconds",
+            "60 Seconds",
+            "240 Seconds",
+            "480 Seconds"
+        ]
+    },
+    {
+        "id": 4,
+        "addressSchool": "16000 Hwy 6, Santa Fe, TX 77517",
+        "schoolName": "Santa Fe High School",
+        "schoolCoordinates": [
+            29.39194,
+            -95.14111
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "3650 FM646, Santa Fe, TX 77510",
+                "policeName": "Santa Fe Police Department",
+                "geographicalDistance": 2.96,
+                "driveDistance": 3.90,
+                "driveTime": 9,
+                "policeCoordinates": [
+                    29.38972,
+                    -95.09278
+                ]
+            },
+            {
+                "addressPolice": "6815 2nd St, Hitchcock, TX 77563",
+                "policeName": "Hitchcock Police Department",
+                "geographicalDistance": 8.03,
+                "driveDistance": 8.20,
+                "driveTime": 15,
+                "policeCoordinates": [
+                    29.3481,
+                    -95.0187
+                ]
+            }
+        ],
+        "city": "Santa Fe",
+        "state": "Texas",
+        "deaths": "10",
+        "ammunition": "18",
+        "timeLine": [
+            "7:00 AM",
+            "7:32 AM",
+            "7:40 AM",
+            "7:45 AM",
+            "8:09 AM"
+        ],
+        "timeLineDifference": [
+            "1920 Seconds",
+            "480 Seconds",
+            "300 Seconds",
+            "1440 Seconds"
+        ]
+    },
+    {
+        "id": 5,
+        "addressSchool": "5901 Pine Island Rd, Parkland, FL 33076",
+        "schoolName": "Marjory Stoneman Douglas High School",
+        "schoolCoordinates": [
+            26.3044,
+            -80.2694
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "6650 N University Dr, Parkland, FL 33067",
+                "policeName": "Broward County Sheriff Department",
+                "geographicalDistance": 1.15,
+                "driveDistance": 1.30,
+                "driveTime": 4,
+                "policeCoordinates": [
+                    26.3122,
+                    -80.2511
+                ]
+            },
+            {
+                "addressPolice": "2801 Coral Springs Dr, Coral Springs, FL 33065",
+                "policeName": "Coral Springs Police Department",
+                "geographicalDistance": 2.78,
+                "driveDistance": 3.10,
+                "driveTime": 8,
+                "policeCoordinates": [
+                    26.2639,
+                    -80.2651
+                ]
+            }
+        ],
+        "city": "Parkland",
+        "state": "Florida",
+        "deaths": "17",
+        "ammunition": "139",
+        "timeLine": [
+            "2:19 PM",
+            "2:21 PM",
+            "2:22 PM",
+            "2:23 PM",
+            "2:50 PM"
+        ],
+        "timeLineDifference": [
+            "120 Seconds",
+            "60 Seconds",
+            "60 Seconds",
+            "1620 Seconds"
+        ]
+    },
+    {
+        "id": 6,
+        "addressSchool": "1140 Umpqua College Rd, Roseburg, OR 97470",
+        "schoolName": "Umpqua Community College",
+        "schoolCoordinates": [
+            43.2888,
+            -123.3320
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "Roseburg, OR 97470",
+                "policeName": "Oregon State Police",
+                "geographicalDistance": 5.03,
+                "driveDistance": 1.20,
+                "driveTime": 3,
+                "policeCoordinates": [
+                    43.21640,
+                    -123.34170
+                ]
+            },
+            {
+                "addressPolice": "700 SE Douglas Ave, Roseburg, OR 97470",
+                "policeName": "Roseburg Police Department",
+                "geographicalDistance": 5.38,
+                "driveDistance": 7.80,
+                "driveTime": 11,
+                "policeCoordinates": [
+                    43.2114,
+                    -123.3436
+                ]
+            }
+        ],
+        "city": "Roseburg",
+        "state": "Oregon",
+        "deaths": "9",
+        "ammunition": "40",
+        "timeLine": [
+            "10:30 AM",
+            "10:32 AM",
+            "10:38 AM",
+            "10:44 AM",
+            "10:48 AM"
+        ],
+        "timeLineDifference": [
+            "120 Seconds",
+            "360 Seconds",
+            "360 Seconds",
+            "240 Seconds"
+        ]
+    },
+    {
+        "id": 7,
+        "addressSchool": "5611 108th St NE, Marysville, WA 98271",
+        "schoolName": "Marysville-Pilchuck High School",
+        "schoolCoordinates": [
+            48.0960,
+            -122.1545
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "1635 Grove St, Marysville, WA 98270",
+                "policeName": "Marysville Police Department",
+                "geographicalDistance": 2.59,
+                "driveDistance": 3.30,
+                "driveTime": 8,
+                "policeCoordinates": [
+                    48.06178512876373,
+                    -122.17335716334745
+                ]
+            },
+            {
+                "addressPolice": "15100 40th Ave NE Suite 201, Marysville, WA 98271",
+                "policeName": "Snohomish County Sheriff North Precinct",
+                "geographicalDistance": 2.79,
+                "driveDistance": 4.10,
+                "driveTime": 9,
+                "policeCoordinates": [
+                    48.133702939179464,
+                    -122.17743068907237
+                ]
+            }
+        ],
+        "city": "Marysville",
+        "state": "Washington",
+        "deaths": "4",
+        "ammunition": "8",
+        "timeLine": [
+            "10:30 AM",
+            "10:39 AM",
+            "10:39 AM",
+            "10:40 AM",
+            "10:43 AM"
+        ],
+        "timeLineDifference": [
+            "540 Seconds",
+            "0 Seconds",
+            "60 Seconds",
+            "180 Seconds"
+        ]
+    },
+    {
+        "id": 8,
+        "addressSchool": "Santa Barbara, CA 93106",
+        "schoolName": "University of California",
+        "schoolCoordinates": [
+            34.41412219141368,
+            -119.84895773190391
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "Public Safety 574, Mesa Rd, Goleta, CA 93117",
+                "policeName": "UC Santa Barbara Police Department",
+                "geographicalDistance": 0.50,
+                "driveDistance": 0.70,
+                "driveTime": 2,
+                "policeCoordinates": [
+                    34.421956725887306,
+                    -119.85295156073943
+                ]
+            },
+            {
+                "addressPolice": "6504 Trigo Rd, Isla Vista, CA 93117",
+                "policeName": "Isla Vista Foot Patrol",
+                "geographicalDistance": 0.56,
+                "driveDistance": 1.10,
+                "driveTime": 5,
+                "policeCoordinates": [
+                    34.411428837363886,
+                    -119.85389073190389
+                ]
+            }
+        ],
+        "city": "Santa Barbra",
+        "state": "California",
+        "deaths": "9",
+        "ammunition": "55",
+        "timeLine": [
+            "9:15 AM",
+            "9:18 AM",
+            "9:27 AM",
+            "9:30 AM",
+            "9:37 AM"
+        ],
+        "timeLineDifference": [
+            "213 Seconds",
+            "570 Seconds",
+            "180 Seconds",
+            "420 Seconds"
+        ]
+    },
+    {
+        "id": 9,
+        "addressSchool": "12 Dickenson Dr, Sandy Hook, CT 06482",
+        "schoolName": "Sandy Hook Elementary School",
+        "schoolCoordinates": [
+            41.42012992335103,
+            -73.2773675163237
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "90 Lakeside Rd, Southbury, CT 06488",
+                "policeName": "Connecticut State PoliceTroop A",
+                "geographicalDistance": 3.32,
+                "driveDistance": 6.30,
+                "driveTime": 10,
+                "policeCoordinates": [
+                    41.477507531967014,
+                    -73.22808373784102
+                ]
+            },
+            {
+                "addressPolice": "191 S Main St, Newtown, CT 06470",
+                "policeName": "Newton Police Department",
+                "geographicalDistance": 2.83,
+                "driveDistance": 5.00,
+                "driveTime": 11,
+                "policeCoordinates": [
+                    41.507918765050974,
+                    -73.2774183867102
+                ]
+            }
+        ],
+        "city": "Sandy Hook",
+        "state": "Connecticut",
+        "deaths": "28",
+        "ammunition": "154",
+        "timeLine": [
+            "9:30 AM",
+            "9:30 AM",
+            "9:35 AM",
+            "9:37 AM",
+            "9:40 AM"
+        ],
+        "timeLineDifference": [
+            "0 Seconds",
+            "300 Seconds",
+            "120 Seconds",
+            "180 Seconds"
+        ]
+    },
+    {
+        "id": 10,
+        "addressSchool": "7901 Oakport St, Oakland, CA 94621",
+        "schoolName": "Oikos University",
+        "schoolCoordinates": [
+            37.74231101264726,
+            -122.19971530111059
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "8980 Earhart Rd, Oakland, CA 94621",
+                "policeName": "Alameda County Sheriff",
+                "geographicalDistance": 0.87,
+                "driveDistance": 1.90,
+                "driveTime": 6,
+                "policeCoordinates": [
+                    37.74724312818242,
+                    -122.2116658156657
+                ]
+            },
+            {
+                "addressPolice": "2651 73rd Ave, Oakland, CA 94605",
+                "policeName": "Eastmont Substation",
+                "geographicalDistance": 2.33,
+                "driveDistance": 3.90,
+                "driveTime": 11,
+                "policeCoordinates": [
+                    37.76770057633644,
+                    -122.17550533179582
+                ]
+            }
+        ],
+        "city": "Oakland",
+        "state": "California",
+        "deaths": "7",
+        "ammunition": "10",
+        "timeLine": [
+            "10:27 AM",
+            "10:30 AM",
+            "10:33 AM",
+            "10:39 AM",
+            "10:49 AM"
+        ],
+        "timeLineDifference": [
+            "180 Seconds",
+            "180 Seconds",
+            "360 Seconds",
+            "600 Seconds"
+        ]
+    },
+    {
+        "id": 11,
+        "addressSchool": "1425 W Lincoln Hwy, DeKalb, IL 60115",
+        "schoolName": "Northern Illinois University",
+        "schoolCoordinates": [
+            41.935175689292834,
+            -88.77340431630468
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "700 W Lincoln Hwy, DeKalb, IL 60115",
+                "policeName": "DeKalb Police Department",
+                "geographicalDistance": 0.26,
+                "driveDistance": 0.30,
+                "driveTime": 2,
+                "policeCoordinates": [
+                    41.930878214304194,
+                    -88.76749074514062
+                ]
+            },
+            {
+                "addressPolice": "395 Wirtz Dr, DeKalb, IL 60115",
+                "policeName": "Northern Illinois University Police Department",
+                "geographicalDistance": 0.26,
+                "driveDistance": 1.30,
+                "driveTime": 5,
+                "policeCoordinates": [
+                    41.93635392746905,
+                    -88.76457548931914
+                ]
+            }
+        ],
+        "city": "Dekalb",
+        "state": "Illinois",
+        "deaths": "5",
+        "ammunition": "50",
+        "timeLine": [
+            "3:00 PM",
+            "3:05 PM",
+            "3:06 PM",
+            "3:06 PM",
+            "3:11 PM"
+        ],
+        "timeLineDifference": [
+            "300 Seconds",
+            "60 Seconds",
+            "33 Seconds",
+            "300 Seconds"
+        ]
+    },
+    {
+        "id": 12,
+        "addressSchool": "West Ambler Johnston Hall : 720 Washington St SW, Blacksburg, VA 24061",
+        "schoolName": "Virginia Tech",
+        "schoolCoordinates": [
+            37.228529496604644,
+            -80.4233630587993
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "330 Sterrett Dr, Blacksburg, VA 24060",
+                "policeName": "Virginia Tech Police Department",
+                "geographicalDistance": 0.44,
+                "driveDistance": 1.50,
+                "driveTime": 6,
+                "policeCoordinates": [
+                    37.218913489986235,
+                    -80.41546240112817
+                ]
+            }
+        ],
+        "city": "Blacksburg",
+        "state": "Virginia",
+        "deaths": "32",
+        "ammunition": "174",
+        "timeLine": [
+            "6:47 AM",
+            "7:15 AM",
+            "8:00 AM",
+            "9:45 AM",
+            "12:00 PM"
+        ],
+        "timeLineDifference": [
+            "1680 Seconds",
+            "2700 Seconds",
+            "6300 Seconds",
+            "8100 Seconds"
+        ]
+    },
+    {
+        "id": 13,
+        "addressSchool": "4876 White Oak Rd, Paradise, PA 17562",
+        "schoolName": "West Nickel Mines Amish School",
+        "schoolCoordinates": [
+            39.9596884161914,
+            -76.08046124563718
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "145 Precision Ave, Strasburg, PA 17579",
+                "policeName": "Strasburg Borough Police Department",
+                "geographicalDistance": 5.91,
+                "driveDistance": 6.40,
+                "driveTime": 11,
+                "policeCoordinates": [
+                    39.98476590090508,
+                    -76.19109248754009
+                ]
+            },
+            {
+                "addressPolice": "300 St Catherine St, Quarryville, PA 175665",
+                "policeName": "Quarryville Police Department",
+                "geographicalDistance": 6.21,
+                "driveDistance": 8.20,
+                "driveTime": 13,
+                "policeCoordinates": [
+                    39.89248836897806,
+                    -76.1609934145289
+                ]
+            }
+        ],
+        "city": "Bart Township",
+        "state": "Pennsylvania",
+        "deaths": "5",
+        "ammunition": "13",
+        "timeLine": [
+            "10:25 AM",
+            "11:05 AM",
+            ""
+        ]
+    },
+    {
+        "id": 14,
+        "addressSchool": "23990 State Hwy 1, Red Lake, MN 56671",
+        "schoolName": "Red Lake High School",
+        "schoolCoordinates": [
+            48.53751749733729,
+            -95.47876852085142
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "State Hwy 1, Red Lake, MN 56676",
+                "policeName": "Red Lake Police Department",
+                "geographicalDistance": 0.99,
+                "driveDistance": 1.10,
+                "driveTime": 3,
+                "policeCoordinates": [
+                    47.87576461900909,
+                    -95.03590298908333
+                ]
+            }
+        ],
+        "city": "Red Lake",
+        "state": "Minnesota",
+        "deaths": "9",
+        "ammunition": "59",
+        "timeLine": [
+            "2:45 AM",
+            "2:51 AM",
+            "2:53 AM",
+            "2:57 AM",
+            "2:58 AM"
+        ],
+        "timeLineDifference": [
+            "360 Seconds",
+            "120 Seconds",
+            "240 Seconds",
+            "60 Seconds"
+        ]
+    },
+    {
+        "id": 15,
+        "addressSchool": "6201 S Pierce St, Littleton, CO 80123",
+        "schoolName": "Columbine High School",
+        "schoolCoordinates": [
+            39.60421919723891,
+            -105.0732314452251
+        ],
+        "policeStations": [
+            {
+                "addressPolice": "6062 Middlefield Rd, Littleton, CO 80123",
+                "policeName": "Columbine Valley Police Department",
+                "geographicalDistance": 2.06,
+                "driveDistance": 2.70,
+                "driveTime": 7,
+                "policeCoordinates": [
+                    39.60671308774864,
+                    -105.03477791823953
+                ]
+            },
+            {
+                "addressPolice": "2255 W Berry Ave, Littleton, CO 80120",
+                "policeName": "Littleton Police Department",
+                "geographicalDistance": 3.32,
+                "driveDistance": 4.30,
+                "driveTime": 11,
+                "policeCoordinates": [
+                    39.61792186319203,
+                    -105.01353307591054
+                ]
+            }
+        ],
+        "city": "Columbine",
+        "state": "Colorado",
+        "deaths": "13",
+        "ammunition": "188",
+        "timeLine": [
+            "11:15 AM",
+            "11:19 AM",
+            "11:22 AM",
+            "11:24 AM",
+            "12:08 AM"
+        ],
+        "timeLineDifference": [
+            "240 Seconds",
+            "180 Seconds",
+            "120 Seconds",
+            "2640 Seconds"
+        ]
+    },
+    {
+        "id": 16,
+        "avgDeaths": 11,
+        "avgAmmunition": 77.7,
+        "avgTime": [
+            "11:43 AM",
+            "11:53 AM",
+            "11:57 AM",
+            "12:08 PM",
+            "12:33 PM"
+        ],
+        "avgTimeDifference": [
+            "610.2 Seconds",
+            "229.8 Seconds",
+            "646.8 Seconds",
+            "1497 Seconds"
+        ]
+    }
+]

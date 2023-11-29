@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,200&display=swap');
 
 .map{
-
+    background-color: #00031b;
     height: auto;
     width: auto\9;
     border: 0;
 }
+
+path {
+    opacity: .3;
+  }
+  
+  path:hover {
+    transition: opacity .4s ease-out;
+    opacity: 1;
+  }
+  
+  circle:hover{
+    cursor: pointer;
+  }

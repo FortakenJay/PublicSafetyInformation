@@ -2,7 +2,8 @@
 
 <?xml version="1.0" encoding="utf-8"?>
 <svg 
-viewBox="-155 0 1400 850"
+viewBox="-155 0 1400 850" 
+
 xmlns="http://www.w3.org/2000/svg"
 id="timeSvg"
 inkscape:version="0.48.4 r9939"
@@ -15,29 +16,29 @@ class="timeline_svg"
   </defs>
   <!--Big_Rectangle-->
   <rect width="1100" height="125" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" y="525" />
-  <text class="big_rect_body_1" y="590" x="933">10:00 AM</text>
-  <text class="big_rect_body_2" y="590" x="708">10:00 AM</text>
-  <text class="big_rect_body_3" y="590" x="483">10:00 AM</text>
-  <text class="big_rect_body_4" y="590" x="258">10:00 AM</text>
-  <text class="big_rect_body_5" y="590" x="33">10:00 AM</text>
+  <text class="big_rect_body_1" y="590" x="933"><%= data.timeLine[4] %></text>
+  <text class="big_rect_body_2" y="590" x="708"><%= data.timeLine[3] %></text>
+  <text class="big_rect_body_3" y="590" x="483"><%= data.timeLine[2] %></text>
+  <text class="big_rect_body_4" y="590" x="258"><%= data.timeLine[1] %></text>
+  <text class="big_rect_body_5" y="590" x="33"><%= data.timeLine[0] %></text>
   <g>
     <!--Phase1_text-->
     <rect y="350" width="225" height="100" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x="100" />
     <text class="rect_time_title" y="390" x="190">t0 to t1</text>
-    <text class="rect_time_body" y="410" x="160">LOREM IPSUM</text>
+    <text class="rect_time_body" y="410" x="160"><%= data.timeLineDifference[0] %></text>
   </g>
   <g transform="matrix(1, 0, 0, 1, 100, 50)">
     <g>
       <!--Phase2_text-->
       <rect y="200" width="225.125" height="100" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x="225.126" />
       <text class="rect_time_title" y="240" x="315">t1 to t2</text>
-      <text class="rect_time_body" y="260" x="275">LOREM IPSUM</text>
+      <text class="rect_time_body" y="260" x="275"><%= data.timeLineDifference[1] %></text>
     </g>
     <g>
       <!--Phase3_text-->
       <rect y="100" width="225.125" height="100" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x="450.251" />
       <text class="rect_time_title" y="140" x="540">t2 to t3</text>
-      <text class="rect_time_body" y="160" x="500">LOREM IPSUM</text>
+      <text class="rect_time_body" y="160" x="500"><%= data.timeLineDifference[2] %></text>
     </g>
     <!--Time4_stick-->
     <rect x="675.376" y="200" width="0.5" height="275" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" />
@@ -50,7 +51,7 @@ class="timeline_svg"
     <!--Phase4_text-->
     <rect width="225" height="100" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x="775" y="50" />
     <text class="rect_time_title" y="90" x="865">t3 to t4</text>
-    <text class="rect_time_body" y="110" x="833">LOREM IPSUM</text>
+    <text class="rect_time_body" y="110" x="833"><%= data.timeLineDifference[3] %></text>
   </g>
   <!--Time5_stick-->
   <rect x="1000" width="0.5" height="375" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" y="150" />

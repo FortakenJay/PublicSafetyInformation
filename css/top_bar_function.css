@@ -62,3 +62,9 @@ body {
 .navbar a :hover {
   background: #ddd;
 }
+
+.center{
+  top: 30%;
+left: 40%;
+  position: absolute;
+}
