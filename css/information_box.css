@@ -7,8 +7,7 @@
     background-color: #435585;
 }
 
-.main_information,
-.police_map_information {
+.main_information, .police_map_information {
     flex: 1; 
     padding: 10px; 
     align-items: center; 
@@ -28,6 +27,7 @@
     border: none;
     font-size: 35px;
     font-weight: bold;
+    align-self: last baseline;
 }
 
 .main_information h1 {
@@ -53,15 +53,14 @@
     filter: invert(100%); 
 }
 
-.information_view p, .information_view h2{
+.information_view p, .information_view h2 {
     font-family: 'Nunito Sans', sans-serif;
     color: white;
     border: none;
     font-size: 18px;
 }
 
-.information_box img, 
-.police_map_information img {
+.information_box img, .police_map_information img {
     width: 60px;
     height: auto;
 }

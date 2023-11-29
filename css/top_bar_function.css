@@ -5,6 +5,7 @@ body {
 }
 /* The navigation bar */
 .navbar {
+  display: inline-block;
   overflow: hidden;
   background-color: #101A24;
   position: fixed; /* Set the navbar to fixed position */
@@ -34,6 +35,20 @@ body {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
+.navbar .center {
+  color: #f2f2f2;
+  width: auto;
+  display: inline-block;
+  text-align: center;
+  padding-left: 100px;
+}
+
+.navbar .right {
+  color: #f2f2f2;
+  float: right;
+  padding-right: 10px;
+}
+
 .navbar a #topimage {
   float: left;
   display: block;
@@ -41,15 +56,9 @@ body {
   text-align: center;
   text-decoration: none;
   padding-bottom: 3px;
-  
-
-
   height: auto;
   width: auto\9;
-
-
-  
 }
-.navbar  a :hover {
+.navbar a :hover {
   background: #ddd;
 }

@@ -1,83 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="stylesheet" href="/information_box.css" />
+  <link rel="stylesheet" href="/introduction_page.css" />
+  <link rel="stylesheet" href="/scroll.css" />
+  <link rel="stylesheet" href="/blank.css" />
 
-<link rel="stylesheet" href="/information_box.css" />
-<link rel="stylesheet" href="/introduction_page.css" />
-<link rel="stylesheet" href="/scroll.css" />
-<link rel="stylesheet" href="/blank.css" />
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Safety Information</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Public Safety Information</title>
-</head>
+  <link href="style.css" rel="stylesheet">
 
-<link href="style.css" rel="stylesheet">
+  <body>
+    <!-- nav bar -->
+    <%- include('./nav.ejs') %>
 
-<body>
-  <!-- nav bar -->
-  <%- include('./nav.ejs') %>
+    <div class="blank"> </div>
 
-  <div class="blank"> </div>
+    <!-- usa map svg -->
+    <%- include('./svg.ejs') %>
 
-  <!-- usa map svg -->
-  <%- include('./svg.ejs') %>
-
-
-  <div class="information_box">
-    <div class="image-container">
-      <img src=".\united-states.png">
-      <h3 id="para1">State Name</h3>
-
-
-    </div>
-  </div>
-
-  <div class="information_box">
-
-    <div class="main_information">
-
-
-      <div class="information_view">
-        <img src=".\school.png">
-        <h1>school</h1>
-      </div>
-
-      <div class="information_view">
-        <img src=".\skull.png">
-        <h2><span id="myNum"> Deaths</span></h2>
-      </div>
-
-      <div class="information_view">
-        <img src=".\bullet.png">
-        <p>150 Rounds</p>
-      </div>
-    </div>
-
-
-    <div class="police_map_information">
+    <!-- <div class="information_box">
       <div class="image-container">
-        <img src=".\policeman.png">
-        <h1>Police Stations:</h1>
+        <img src=".\united-states.png">
+        <h3 id="para1">City, State</h3>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m32!1m12!1m3!1d102342.11452181419!2d-86.87636187104614!3d36.07361770263707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m17!3e0!4m5!1s0x886465c01678b57b%3A0x49e42b39ebadfef6!2sBerry%20Hill%20Police%20Department%2C%20Thompson%20Lane%2C%20Nashville%2C%20TN!3m2!1d36.1121413!2d-86.7627079!4m3!3m2!1d36.093056!2d-86.82555599999999!4m5!1s0x88647b464638d0d9%3A0x5ba8e4fd141ce342!2sBrentwood%20Police%20Department%2C%20Maryland%20Way%20%23%201000%2C%20Brentwood%2C%20TN!3m2!1d36.034565!2d-86.8047251!5e0!3m2!1sen!2sus!4v1699076786344!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> -->
+
+    <div class="information_box">
+
+      <div class="main_information">
+
+        <div class="information_view">
+          <h3 id="para1">City, State</h3>
+        </div>
+
+        <div class="information_view">
+          <img src=".\school.png">
+          <h1>school</h1>
+        </div>
+
+        <div class="information_view">
+          <img src=".\skull.png">
+          <h2><span id="myNum"> Deaths</span></h2>
+        </div>
+
+        <div class="information_view">
+          <img src=".\bullet.png">
+          <p>150 Rounds</p>
+        </div>
+      </div>
+
+      <div class="police_map_information">
+        <div class="image-container">
+          <img src=".\policeman.png">
+          <h1>Police Stations:</h1>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m32!1m12!1m3!1d102342.11452181419!2d-86.87636187104614!3d36.07361770263707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m17!3e0!4m5!1s0x886465c01678b57b%3A0x49e42b39ebadfef6!2sBerry%20Hill%20Police%20Department%2C%20Thompson%20Lane%2C%20Nashville%2C%20TN!3m2!1d36.1121413!2d-86.7627079!4m3!3m2!1d36.093056!2d-86.82555599999999!4m5!1s0x88647b464638d0d9%3A0x5ba8e4fd141ce342!2sBrentwood%20Police%20Department%2C%20Maryland%20Way%20%23%201000%2C%20Brentwood%2C%20TN!3m2!1d36.034565!2d-86.8047251!5e0!3m2!1sen!2sus!4v1699076786344!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="police_map_information">
+        <div class="image-container">
+          <h1>lorem ipsum</h1>
+        </div>
+      </div>
+
     </div>
 
-    <div class="police_map_information">
-      <div class="image-container">
-        <h1>lorem ipsum</h1>
-      </div>
-    </div>
+    <!-- svg timeline -->
+    <%- include('./timeline_svg.ejs') %>
 
-  </div>
+    <!-- footer -->
+    <%- include('./footer.ejs') %>
 
-  <!-- svg timeline -->
-  <%- include('./timeline_svg.ejs') %>
-
-  <!-- footer -->
-  <%- include('./footer.ejs') %>
-
-
-</body>
-
+  </body>
 </html>
