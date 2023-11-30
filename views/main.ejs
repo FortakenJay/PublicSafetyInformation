@@ -23,45 +23,42 @@
 
     <% if (data != null) { %>
         
+        <div class="information_box">
 
-    <div class="information_box">
+            <div class="main_information">
 
-        <div class="main_information">
+                <div class="image-container">
+                <h3 id="para1"><%= data.city %>, <%= data.state %></h3>
+                </div>
 
-            <div class="image-container">
-            <h3 id="para1"><%= data.city %>, <%= data.state %></h3>
+                <div class="information_view">
+                <img src="\school.png">
+                <h1><%= data.schoolName %> </h1>
+                </div>
+
+                <div class="information_view">
+                <img src="\skull.png">
+                <h2><span id="myNum"><%= data.deaths %> deaths.</span></h2>
+                </div>
+
+                <div class="information_view">
+                <img src="\bullet.png">
+                <p><%= data.ammunition %> ammunitions.</p>
+                </div>
+
             </div>
 
-            <div class="information_view">
-            <img src="\school.png">
-            <h1><%= data.schoolName %> </h1>
+            <div class="police_map_information">
+                <div class="image-container">
+                    <h1>lorem ipsum</h1>
+                </div>
             </div>
 
-            <div class="information_view">
-            <img src="\skull.png">
-            <h2><span id="myNum"><%= data.deaths %> deaths.</span></h2>
-            </div>
-
-            <div class="information_view">
-            <img src="\bullet.png">
-            <p><%= data.ammunition %> ammunitions.</p>
-            </div>
+            <%- include('./map.ejs') %>
 
         </div>
 
-        
-
-        <div class="police_map_information">
-            <div class="image-container">
-                <h1>lorem ipsum</h1>
-            </div>
-        </div>
-
-        <%- include('./map.ejs') %>
-
-    </div>
-
-    <%- include('./timeline_svg.ejs') %>
+        <%- include('./timeline_svg.ejs') %>
 
     <% } else { %>
 
@@ -74,7 +71,5 @@
     <!-- footer -->
     <%- include('./footer.ejs') %>
 
-
 </body>
-
 </html>
