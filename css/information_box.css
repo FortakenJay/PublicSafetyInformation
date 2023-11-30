@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,200&display=swap');
-.svg{
-    background-color: (0,14,47,.7);
-}
+
 .information_box {
     display: flex; 
     background-color: #435585;
+    flex-wrap: wrap;
 }
 
-.main_information, .police_map_information {
+.main_information,
+.police_map_information {
     flex: 1; 
     padding: 10px; 
     align-items: center; 
@@ -52,19 +52,20 @@
     filter: invert(100%); 
 }
 
-.information_view p, .information_view h2 {
+.information_view p, .information_view h2{
     font-family: 'Nunito Sans', sans-serif;
     color: white;
     border: none;
     font-size: 18px;
 }
 
-.information_box img, .police_map_information img {
+.information_box img, 
+.police_map_information img {
     width: 60px;
     height: auto;
 }
 
-.police_map_information img {
+.image-container img {
     filter: invert(100%);
 }
 
