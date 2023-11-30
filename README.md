@@ -24,6 +24,10 @@ main.ejs:
 + Geographical distance
 + Drive distance
 
+Contributers:
++ add space for Professor Dai
++ add pictures 
+
 General: 
 + upload to website
 + fix the coordinates
