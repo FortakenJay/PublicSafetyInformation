@@ -627,7 +627,15 @@
         "timeLine": [
             "10:25 AM",
             "11:05 AM",
-            ""
+            "10:36 AM",
+            "10:42 AM",
+            "11:07 AM"
+        ],
+        "timeLineDifference": [
+            "2400 Seconds",
+            "1740 Seconds",
+            "360 Seconds",
+            "1500 Seconds"
         ]
     },
     {
