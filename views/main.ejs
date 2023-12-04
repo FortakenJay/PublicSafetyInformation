@@ -53,31 +53,21 @@
                 </div>
 
                 <div class="police_view">
-                    <p1>School Address: <%= data.addressSchool %> </p1>
+                    <p>School Address: <%= data.addressSchool %> </p>
                 </div>
-
+                <br>
                 <div class="police_view">
-                    <p2> (P1) Police Station: </p2>
+                    <p> Police Station 1: <%= data.policeStations[0].policeName %> </p>
+                    <p> <%= data.policeStations[0].addressPolice %> </p>
+                    <p> Distance: <%= data.policeStations[0].driveDistance %> miles</p>
+                    <p> Travel Time: <%= data.policeStations[0].driveTime %> min</p>
                 </div>
-
+                <br>
                 <div class="police_view">
-                    <p3> (P1) Address: </p3>
-                </div>
-
-                <div class="police_view">
-                    <p4> (P2) Police Station: </p4>
-                </div>
-
-                <div class="police_view">
-                    <p5> (P2) Address: </p5>
-                </div>
-
-                <div class="police_view">
-                    <p6> Drive time and distance (P1) to School: </p6>
-                </div>
-
-                <div class="police_view">
-                    <p7> Drive time and distance (P2) to School: </p7>
+                    <p> Police Station 2: <%= data.policeStations[1].policeName %> </p>
+                    <p> <%= data.policeStations[1].addressPolice %> </p>
+                    <p> Distance: <%= data.policeStations[1].driveDistance %> miles</p>
+                    <p> Travel Time: <%= data.policeStations[1].driveTime %> min</p>
                 </div>
 
             </div>
