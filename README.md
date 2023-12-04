@@ -14,26 +14,26 @@ map.ejs:
 + Coordinates for Pop ups
 
 main.ejs: 
-+ Add missing information
-+ information_box dynamic
 + Add the CSS for No Case Selected Yet
++ Add missing information
+            |
+            \/
 
  Info for map:
 + Address of school
 + Address of police stations
 + Geographical distance
 + Drive distance
++ /n the popups
++ add pop ups to the waypoints (school, police 1, police 2, etc)
 
 Contributers:
-+ add space for Professor Dai
-+ add pictures 
++ update Justin
 
 General: 
-+ upload to website
 + fix the coordinates
 + Improve Color Palette
 + Improve overall CSS
-+ Dynamic
 + Hover on Map 
 + Hover on Circles of Cases
 
