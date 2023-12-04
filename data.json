@@ -1,11 +1,11 @@
-[
+    [
     {
         "id": 1,
         "addressSchool": "33 Burton Hills Blvd, Nashville, TN 37215",
         "schoolName": "The Covenant School",
         "schoolCoordinates": [
-            36.09310,
-            -86.82560
+            36.092878090614406, 
+            -86.82523550387405
         ],
         "policeStations": [ 
             {
@@ -15,8 +15,8 @@
                 "driveDistance": 4.80,
                 "driveTime": 12,
                 "policeCoordinates": [
-                    36.11194,
-                    -86.76222
+                    36.11218566945514, 
+                    -86.76249546915705
                 ]
             },
             {
@@ -26,8 +26,8 @@
                 "driveDistance": 5.90,
                 "driveTime": 12,
                 "policeCoordinates": [
-                    36.03444,
-                    -86.80500
+                    36.03448394561502, 
+                    -86.80522980386816
                 ]
             }
         ],
@@ -54,8 +54,8 @@
         "addressSchool": "715 Old Carrizo Rd, Uvalde, TX 78801",
         "schoolName": "Robb Elementry School",
         "schoolCoordinates": [
-            29.19944,
-            -99.78833
+            29.198610831892818, 
+            -99.7894781747637
         ],
         "policeStations": [
             {
@@ -65,8 +65,8 @@
                 "driveDistance": 1.10,
                 "driveTime": 3,
                 "policeCoordinates": [
-                    29.2078,
-                    -99.7863
+                    29.20820442190156, 
+                    -99.78586422942989
                 ]
             },
             {
@@ -76,8 +76,8 @@
                 "driveDistance": 1.40,
                 "driveTime": 4,
                 "policeCoordinates": [
-                    29.2030,
-                    -99.8039
+                    29.203282375262543, 
+                    -99.80390794524696
                 ]
             }
         ],
@@ -104,8 +104,8 @@
         "addressSchool": "745 N Oxford Rd, Oxford, MI 48371",
         "schoolName": "Oxford High School",
         "schoolCoordinates": [
-            42.8381,
-            -83.2611
+            42.838285801928365, 
+            -83.26180764526472
         ],
         "policeStations": [
             {
@@ -115,8 +115,8 @@
                 "driveDistance": 1.40,
                 "driveTime": 6,
                 "policeCoordinates": [
-                    42.8242,
-                    -83.2667
+                    42.82423902329365, 
+                    -83.26674097485784
                 ]
             },
             {
@@ -126,8 +126,8 @@
                 "driveDistance": 4.40,
                 "driveTime": 11,
                 "policeCoordinates": [
-                    42.78722,
-                    -83.23917
+                    42.787406430068295, 
+                    -83.23930950694076
                 ]
             }
         ],
@@ -154,8 +154,8 @@
         "addressSchool": "16000 Hwy 6, Santa Fe, TX 77517",
         "schoolName": "Santa Fe High School",
         "schoolCoordinates": [
-            29.39194,
-            -95.14111
+            29.393260700784225, 
+            -95.14390001898977
         ],
         "policeStations": [
             {
@@ -165,8 +165,8 @@
                 "driveDistance": 3.90,
                 "driveTime": 9,
                 "policeCoordinates": [
-                    29.38972,
-                    -95.09278
+                    29.38974602994133, 
+                    -95.09298267082659
                 ]
             },
             {
@@ -176,8 +176,8 @@
                 "driveDistance": 8.20,
                 "driveTime": 15,
                 "policeCoordinates": [
-                    29.3481,
-                    -95.0187
+                    29.348314090694693, 
+                    -95.01890257468962
                 ]
             }
         ],
@@ -204,8 +204,8 @@
         "addressSchool": "5901 Pine Island Rd, Parkland, FL 33076",
         "schoolName": "Marjory Stoneman Douglas High School",
         "schoolCoordinates": [
-            26.3044,
-            -80.2694
+            26.304502375809285, 
+            -80.26945700423802
         ],
         "policeStations": [
             {
@@ -215,8 +215,8 @@
                 "driveDistance": 1.30,
                 "driveTime": 4,
                 "policeCoordinates": [
-                    26.3122,
-                    -80.2511
+                    26.312300113936328, 
+                    -80.25123739519952
                 ]
             },
             {
@@ -226,8 +226,8 @@
                 "driveDistance": 3.10,
                 "driveTime": 8,
                 "policeCoordinates": [
-                    26.2639,
-                    -80.2651
+                    26.312300113936328, 
+                    -80.2512351842989
                 ]
             }
         ],
@@ -254,8 +254,8 @@
         "addressSchool": "1140 Umpqua College Rd, Roseburg, OR 97470",
         "schoolName": "Umpqua Community College",
         "schoolCoordinates": [
-            43.2888,
-            -123.3320
+            43.291947682932104, 
+            -123.33786454463953
         ],
         "policeStations": [
             {
@@ -265,8 +265,8 @@
                 "driveDistance": 1.20,
                 "driveTime": 3,
                 "policeCoordinates": [
-                    43.21640,
-                    -123.34170
+                    43.290976710331186, 
+                    -123.352754408609
                 ]
             },
             {
@@ -276,8 +276,8 @@
                 "driveDistance": 7.80,
                 "driveTime": 11,
                 "policeCoordinates": [
-                    43.2114,
-                    -123.3436
+                    43.211468559730946, 
+                    -123.34379560353914
                 ]
             }
         ],
@@ -304,8 +304,8 @@
         "addressSchool": "5611 108th St NE, Marysville, WA 98271",
         "schoolName": "Marysville-Pilchuck High School",
         "schoolCoordinates": [
-            48.0960,
-            -122.1545
+            48.095727274051455, 
+            -122.15399691100484
         ],
         "policeStations": [
             {
@@ -315,8 +315,8 @@
                 "driveDistance": 3.30,
                 "driveTime": 8,
                 "policeCoordinates": [
-                    48.06178512876373,
-                    -122.17335716334745
+                    48.061808074821286, 
+                    -122.17358500328031
                 ]
             },
             {
@@ -326,8 +326,8 @@
                 "driveDistance": 4.10,
                 "driveTime": 9,
                 "policeCoordinates": [
-                    48.133702939179464,
-                    -122.17743068907237
+                    48.13334277112756, 
+                    -122.17757747382849
                 ]
             }
         ],
@@ -354,8 +354,8 @@
         "addressSchool": "Santa Barbara, CA 93106",
         "schoolName": "University of California",
         "schoolCoordinates": [
-            34.41412219141368,
-            -119.84895773190391
+            34.413961144131704, 
+            -119.84894702538152
         ],
         "policeStations": [
             {
@@ -365,8 +365,8 @@
                 "driveDistance": 0.70,
                 "driveTime": 2,
                 "policeCoordinates": [
-                    34.421956725887306,
-                    -119.85295156073943
+                    34.42182286663945, 
+                    -119.85292943339212
                 ]
             },
             {
@@ -376,8 +376,8 @@
                 "driveDistance": 1.10,
                 "driveTime": 5,
                 "policeCoordinates": [
-                    34.411428837363886,
-                    -119.85389073190389
+                    34.4113165197113, 
+                    -119.8539019039447
                 ]
             }
         ],
@@ -404,8 +404,8 @@
         "addressSchool": "12 Dickenson Dr, Sandy Hook, CT 06482",
         "schoolName": "Sandy Hook Elementary School",
         "schoolCoordinates": [
-            41.42012992335103,
-            -73.2773675163237
+            41.420067026395095, 
+            -73.2771819926222
         ],
         "policeStations": [
             {
@@ -415,8 +415,8 @@
                 "driveDistance": 6.30,
                 "driveTime": 10,
                 "policeCoordinates": [
-                    41.477507531967014,
-                    -73.22808373784102
+                    41.45656545369597, 
+                    -73.23446913470721
                 ]
             },
             {
@@ -426,8 +426,8 @@
                 "driveDistance": 5.00,
                 "driveTime": 11,
                 "policeCoordinates": [
-                    41.507918765050974,
-                    -73.2774183867102
+                    41.37923776488811, 
+                    -73.2781025036307
                 ]
             }
         ],
@@ -454,8 +454,8 @@
         "addressSchool": "7901 Oakport St, Oakland, CA 94621",
         "schoolName": "Oikos University",
         "schoolCoordinates": [
-            37.74231101264726,
-            -122.19971530111059
+            37.74242785608662, 
+            -122.19938529890108
         ],
         "policeStations": [
             {
@@ -465,8 +465,8 @@
                 "driveDistance": 1.90,
                 "driveTime": 6,
                 "policeCoordinates": [
-                    37.74724312818242,
-                    -122.2116658156657
+                    37.72956434154109, 
+                    -122.20850270380214
                 ]
             },
             {
@@ -476,8 +476,8 @@
                 "driveDistance": 3.90,
                 "driveTime": 11,
                 "policeCoordinates": [
-                    37.76770057633644,
-                    -122.17550533179582
+                    37.76752141173027, 
+                    -122.17549460380032
                 ]
             }
         ],
@@ -504,8 +504,8 @@
         "addressSchool": "1425 W Lincoln Hwy, DeKalb, IL 60115",
         "schoolName": "Northern Illinois University",
         "schoolCoordinates": [
-            41.935175689292834,
-            -88.77340431630468
+            41.9339744734529, 
+            -88.77985437415566
         ],
         "policeStations": [
             {
@@ -515,8 +515,8 @@
                 "driveDistance": 0.30,
                 "driveTime": 2,
                 "policeCoordinates": [
-                    41.930878214304194,
-                    -88.76749074514062
+                    41.93066667340154, 
+                    -88.76734927415578
                 ]
             },
             {
@@ -526,8 +526,8 @@
                 "driveDistance": 1.30,
                 "driveTime": 5,
                 "policeCoordinates": [
-                    41.93635392746905,
-                    -88.76457548931914
+                    41.935863772301616, 
+                    -88.7641371741556
                 ]
             }
         ],
@@ -554,8 +554,8 @@
         "addressSchool": "West Ambler Johnston Hall : 720 Washington St SW, Blacksburg, VA 24061",
         "schoolName": "Virginia Tech",
         "schoolCoordinates": [
-            37.228529496604644,
-            -80.4233630587993
+            37.22307105847369, 
+            -80.42092363816893
         ],
         "policeStations": [
             {
@@ -565,8 +565,8 @@
                 "driveDistance": 1.50,
                 "driveTime": 6,
                 "policeCoordinates": [
-                    37.218913489986235,
-                    -80.41546240112817
+                    37.21870560405567, 
+                    -80.41635750382491
                 ]
             }
         ],
@@ -593,8 +593,8 @@
         "addressSchool": "4876 White Oak Rd, Paradise, PA 17562",
         "schoolName": "West Nickel Mines Amish School",
         "schoolCoordinates": [
-            39.9596884161914,
-            -76.08046124563718
+            39.96007187140368, 
+            -76.08436767425131
         ],
         "policeStations": [
             {
@@ -604,8 +604,8 @@
                 "driveDistance": 6.40,
                 "driveTime": 11,
                 "policeCoordinates": [
-                    39.98476590090508,
-                    -76.19109248754009
+                    39.98491335761289, 
+                    -76.1911360742502
                 ]
             },
             {
@@ -615,8 +615,8 @@
                 "driveDistance": 8.20,
                 "driveTime": 13,
                 "policeCoordinates": [
-                    39.89248836897806,
-                    -76.1609934145289
+                    39.89227405693363, 
+                    -76.16111970370225
                 ]
             }
         ],
@@ -643,8 +643,8 @@
         "addressSchool": "23990 State Hwy 1, Red Lake, MN 56671",
         "schoolName": "Red Lake High School",
         "schoolCoordinates": [
-            48.53751749733729,
-            -95.47876852085142
+            47.87694332134421, 
+            -95.00684470329062
         ],
         "policeStations": [
             {
@@ -654,8 +654,8 @@
                 "driveDistance": 1.10,
                 "driveTime": 3,
                 "policeCoordinates": [
-                    47.87576461900909,
-                    -95.03590298908333
+                    47.87566424700746, 
+                    -95.03587149134279
                 ]
             }
         ],
@@ -682,8 +682,8 @@
         "addressSchool": "6201 S Pierce St, Littleton, CO 80123",
         "schoolName": "Columbine High School",
         "schoolCoordinates": [
-            39.60421919723891,
-            -105.0732314452251
+            39.60387338956541, 
+            -105.074190966679
         ],
         "policeStations": [
             {
@@ -693,8 +693,8 @@
                 "driveDistance": 2.70,
                 "driveTime": 7,
                 "policeCoordinates": [
-                    39.60671308774864,
-                    -105.03477791823953
+                    39.606522971468586, 
+                    -105.03473567426802
                 ]
             },
             {
@@ -704,8 +704,8 @@
                 "driveDistance": 4.30,
                 "driveTime": 11,
                 "policeCoordinates": [
-                    39.61792186319203,
-                    -105.01353307591054
+                    39.61814878521425, 
+                    -105.01327999897559
                 ]
             }
         ],
